@@ -1,0 +1,33 @@
+[
+  {
+    "vendor_name": "vendor1",
+    "file_name_pattern": "vendor1_data_\\d{8}\\.csv",
+    "file_format": "csv",
+    "compression": "none", 
+    "expected_headers": ["id", "name", "date", "amount"],
+    "primary_key": "id",
+    "mandatory_fields": ["id", "name", "date"],
+    "date_columns": [
+      {
+        "column": "date",
+        "format": "yyyy-MM-dd"
+      }
+    ]
+  },
+  {
+    "vendor_name": "vendor2",
+    "file_name_pattern": "vendor2_data_\\d{8}\\.csv",
+    "file_format": "csv",
+    "compression": "none",
+    "expected_headers": ["order_id", "customer", "order_date", "total"],
+    "primary_key": "order_id",
+    "mandatory_fields": ["order_id", "customer"],
+    "date_columns": [
+      {
+        "column": "order_date",
+        "format": "MM/dd/yyyy"
+      }
+    ]
+  }
+  
+]

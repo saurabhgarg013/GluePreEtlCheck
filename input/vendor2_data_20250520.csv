@@ -1,0 +1,8 @@
+order_id,customer,order_date,total
+101,Alice Smith,2025-05-21,150.50
+102,Bob Jones,2025-04-10,200.75
+102,Bob Jones,2025-04-10,200.75
+101,Charlie Brown,invalid_date,300.00
+103,,05/22/2025,99.99
+104,David Wilson,05/23/2025,120.00
+104,David Wilson,05/23/2025,120.00
